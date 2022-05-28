@@ -2,9 +2,9 @@
 Cinema Schedule Web API example
 
 ## Examples
-/api/cinemaSchedule?pageSize=2&pageNumber=1
-/api/cinemaSchedule/city/1?pageSize=1&pageNumber=1
-/api/cinemaSchedule/cinema/1
+- /api/cinemaSchedule?pageSize=2&pageNumber=1
+- /api/cinemaSchedule/city/1?pageSize=1&pageNumber=1
+- /api/cinemaSchedule/cinema/1
 
 ## Tech
 - .NET 6.0
@@ -12,5 +12,6 @@ Cinema Schedule Web API example
 
 ## TODO
 - configure the database schema (keys, restrictions)
+- authorization / authentication / roles
 - write unit tests
-- implement UI
+- client side app implementation
